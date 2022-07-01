@@ -26,7 +26,8 @@
   },
   "peerDependencies": {
     "@newrelic/native-metrics": "^7.0.2",
-    "newrelic": "^8.5.0"
+    "newrelic": "^8.5.0",
+    "nuxt-edge": "latest"
   },
   "devDependencies": {
     "@babel/core": "latest",
@@ -38,7 +39,6 @@
     "babel-eslint": "latest",
     "eslint": "latest",
     "husky": "latest",
-    "nuxt-edge": "latest",
     "standard-version": "latest"
   },
   "publishConfig": {
