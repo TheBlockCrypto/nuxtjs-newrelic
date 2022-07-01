@@ -1,8 +1,8 @@
 {
-  "name": "@drunomics/nuxtjs-newrelic",
-  "version": "1.0.0-beta1",
+  "name": "@theblockcrypto/nuxtjs-newrelic",
+  "version": "1.0.0-beta2",
   "description": "A Nuxt.js module to easily add NewRelic APM data to your project.",
-  "repository": "drunomics/nuxtjs-newrelic",
+  "repository": "theblockcrypto/nuxtjs-newrelic",
   "license": "MIT",
   "contributors": [
     {
@@ -22,10 +22,9 @@
   "scripts": {
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue .",
-    "release": "npm run test && standard-version && git push --follow-tags && npm publish",
     "test": "npm run lint && jest"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@newrelic/native-metrics": "^7.0.2",
     "newrelic": "^8.5.0"
   },
